@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Front-End Test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<div class="container">
 		<div class="item-list">
 			<div class="item">
-				<h1 class="title">Title 1</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
+				<h1 class="title">Title 1<span class="close">x</span></h1>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque
+					lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae
+					tristique mauris dui quis.</p>
 			</div>
 			<div class="item">
-				<h1 class="title">Title 2</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
+				<h1 class="title"><span class="close">x</span>Title 2</h1>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque
+					lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae
+					tristique mauris dui quis.</p>
 			</div>
 			<div class="item">
-				<h1 class="title">Title 3</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
+				<h1 class="title">Title 3 <span class="close">x</span></h1>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque
+					lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae
+					tristique mauris dui quis.</p>
 			</div>
 			<div class="item">
-				<h1 class="title">Title 4</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
+				<h1 class="title">Title 4<span class="close">x</span></h1>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque
+					lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae
+					tristique mauris dui quis.</p>
 			</div>
 		</div>
-		<input type="text" name="newtitle" id="newtitle">
-		<button class="add">Add New</button>
-	</div>	
-
+		<div class="input-group">
+			<input type="text" class="form-control" name="newtitle" id="newtitle" placeholder="enter the title">
+			<span class="input-group-btn">
+				<button class="btn btn-primary add" type="button">ADD NEW</button>
+			</span>
+		</div>
+	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="main.js"></script>
 
 </body>
+
 </html>

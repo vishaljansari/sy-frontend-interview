@@ -28,6 +28,7 @@ $(document).ready(function () {
         if (inputData.length > 0) {
             $("<div class='item'><h1 class='title'>" + inputData + "<span class='close'>x</span></h1><p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p></div>").appendTo('.item-list');
             $('#newtitle').val('');
+            count++;
         } else {
             count++;
             $("<div class='item'><h1 class='title'>" + "Title " + count + "<span class='close'>x</span></h1><p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p></div>").appendTo('.item-list');
